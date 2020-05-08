@@ -1,0 +1,117 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-white: #ffffff;
+}
+
+body {
+  background-color: var(--accent-white);
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-text {
+  color: #000000;
+}
+
+/* site nav */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.contact .link,
+.social .link {
+  color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Герой */
+.hero {
+  color: var(--accent-white);
+}
+
+/* Sections */
+ul {
+  list-style: none;
+}
+.section-title,
+.section-subtitle {
+  color: var(--title-text-color);
+}
+.section-lead {
+  color: var(--accent-white);
+}
+
+.section-fon {
+  background-color: #f5f4fa;
+}
+
+/* Button */
+.button {
+  background-color: var(--accent-text-color);
+  color: var(--accent-white);
+}
+
+/* Footer */
+.end {
+  background-color: #2f303a;
+  color: var(--accent-white);
+}
+
+.logo-text-end {
+  color: var(--accent-white);
+}
+.copyrigth {
+  color: rgba(255, 255, 255, 0.4);
+}
+.address-secondary {
+  color: rgba(255, 255, 255, 0.6);
+}
+.button.secondary{
+width: 200px;
+height: 50px;
+left: 1201px;
+top: 2764px;
+
+}
+.copyrigth {
+  color: rgba(255, 255, 255, 0.4);
+
+
+/* Цвет основного текста #757575 */
+/* Цвет вторичного текста #212121 */
+/* белый #FFFFFF */
+/* голубой акцент  #2196F3 */
+/* Футер Цвет адреса rgba(255, 255, 255, 0.6) */
+/* Футер ссылки соц сетей background: #AFB1B8 */
+/* Футер корирайт rgba(255, 255, 255, 0.4) */
+/* фон вторичный background: #F5F4FA */
+/* фон header background: #FFFFFF;
+/* фон footer background: #2F303A */
