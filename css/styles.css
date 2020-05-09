@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --accent-white: #ffffff;
+  --background-color: #f5f4fa;
 }
 
 body {
@@ -70,7 +71,7 @@ ul {
 }
 
 .section-fon {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
 }
 
 /* Button */
@@ -93,13 +94,6 @@ ul {
 }
 .address-secondary {
   color: rgba(255, 255, 255, 0.6);
-}
-.button.secondary{
-width: 200px;
-height: 50px;
-left: 1201px;
-top: 2764px;
-
 }
 .copyrigth {
   color: rgba(255, 255, 255, 0.4);

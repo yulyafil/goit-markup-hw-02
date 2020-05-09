@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/common.css" />
   </head>
 
   <body>
@@ -34,19 +36,25 @@
     <main>
       <h1>Портфолио</h1>
       <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li><button type="button" class="button-portfolio">Все</button></li>
+        <li>
+          <button type="button" class="button-portfolio">Веб-сайты</button>
+        </li>
+        <li>
+          <button type="button" class="button-portfolio">Приложения</button>
+        </li>
+        <li><button type="button" class="button-portfolio">Дизайн</button></li>
+        <li>
+          <button type="button" class="button-portfolio">Маркетинг</button>
+        </li>
       </ul>
 
-      <ul>
+      <ul class="ul-fon">
         <li>
           <img src="./image/технокряк.jpg" alt="Люди" />
-          <h2>Технокряк</h2>
+          <h2 class="title">Технокряк</h2>
           <p>Веб-сайт</p>
-          <p>
+          <p class="title-text">
             Технокряк это современная площадка распространения коронавируса.
             Компании используют эту платформу для цифрового шпионажа и атак на
             защищённые сервера конкурентов.
@@ -54,71 +62,72 @@
         </li>
         <li>
           <img src="./image/постер.jpg" alt="Баскетбол" />
-          <h2>Постер New Orlean vs Golden Stars</h2>
+          <h2 class="title">Постер New Orlean vs Golden Stars</h2>
           <p>Дизайн</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
             incidunt?
           </p>
         </li>
         <li>
           <img src="./image/ресторан.jpg" alt="Рыба" />
-          <h2>Ресторан Seafood</h2>
+          <h2 class="title">Ресторан Seafood</h2>
           <p>Приложение</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             corporis!
           </p>
         </li>
         <li>
           <img src="./image/prime.jpg" alt="Наушники" />
-          <h2>Проект Prime</h2>
+          <h2 class="title">Проект Prime</h2>
           <p>Маркетинг</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
             quibusdam.
           </p>
         </li>
         <li>
           <img src="./image/boxes.jpg" alt="Коробки" />
-          <h2>Проект Boxes</h2>
+          <h2 class="title">Проект Boxes</h2>
           <p>Приложение</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             eos.
           </p>
         </li>
         <li>
           <img src="./image/Borders.jpg" alt="Монитор" />
-          <h2>Inspiration has no Borders</h2>
+          <h2 class="title">Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
             atque?
           </p>
         </li>
         <li>
           <img src="./image/издание.jpg" alt="Журнал" />
-          <h2>Издание Limited Edition</h2>
+          <h2 class="title">Издание Limited Edition</h2>
           <p>Дизайн</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
             enim.
           </p>
         </li>
         <li>
           <img src="./image/lab.jpg" alt="Карточка" />
-          <h2>Проект LAB</h2>
+          <h2 class="title">Проект LAB</h2>
           <p>Маркетинг</p>
-          <p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             temporibus?
           </p>
         </li>
         <li>
           <img src="./image/business.jpg" alt="Ноутбук" />
-          <h2>Growing Business</h2>
-          <p>
+          <h2 class="title">Growing Business</h2>
+          <p>Приложение</p>
+          <p class="title-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
             corrupti.
           </p>
@@ -148,9 +157,11 @@
         <li><a href="" aria-label="ссылка на LinkedIn">LinkedIn</a></li>
       </ul>
 
-      <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ </b>
-      <p class="button secondary">Подписаться</p>
+      <p>
+        <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ </b>
+      </p>
 
+      <button type="button" class="button">Подписаться</button>
       <p class="copyrigth">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
