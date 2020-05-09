@@ -1,0 +1,31 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-white: #ffffff;
+  --background-color: #f5f4fa;
+}
+body {
+  background-color: var(--accent-white);
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/* Button */
+.button-portfolio {
+  color: var(--title-text-color);
+  background: var(--background-color);
+}
+.button-portfolio:hover {
+  color: var(--accent-white);
+  background-color: var(--accent-text-color);
+}
+.title {
+  color: var(--title-text-color);
+}
+.title-text {
+  color: var(--accent-white);
+}
+.ul-fon {
+  background-color: var(--background-color);
+}
