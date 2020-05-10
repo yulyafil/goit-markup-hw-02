@@ -56,3 +56,43 @@ body {
   background-color: var(--accent-text-color);
   color: var(--accent-white);
 }
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+  color: var(--accent-white);
+}
+
+.logo-text-footer {
+  color: var(--accent-white);
+}
+.address-primary {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em; 
+}
+.address-secondary {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.end {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.copyrigth {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
