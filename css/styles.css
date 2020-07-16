@@ -17,6 +17,15 @@
 /* фон header background: #FFFFFF;
 /* фон footer background: #2F303A; */
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: var(--accent-white);
   color: var(--primary-text-color);
@@ -132,7 +141,9 @@ letter-spacing: 0.03em;
   background-color: var(--accent-text-color);
   color: var(--accent-white);
   font-family: inherit;
+ 
   }
+
   
 
 /* Footer */

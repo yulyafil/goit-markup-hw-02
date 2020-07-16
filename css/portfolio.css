@@ -17,6 +17,15 @@
 /* фон header background: #FFFFFF;
 /* фон footer background: #2F303A; */
 
+/* Не поставил, не человек) */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 body {
   background-color: var(--accent-white);
@@ -61,11 +70,11 @@ ul p {
   color: var(--accent-white);
 }
 .address-primary {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address-secondary {
   color: rgba(255, 255, 255, 0.6);
@@ -77,11 +86,11 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
 }
 .end {
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .copyrigth {
   color: rgba(255, 255, 255, 0.4);
@@ -90,3 +99,4 @@ text-transform: uppercase;
   line-height: 2;
   text-align: center;
   letter-spacing: 0.03em;
+}
